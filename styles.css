@@ -1,34 +1,32 @@
-#rowsTa {
+#sizeTa {
     position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#colsTa {
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-block;
+    bottom: 30px;
 }
 
 #generateBtn {
-    display: block;
+    position: relative;
+    display: inline-block;
+    right: 180px;
+    width: 180px;
+}
+
+#container {
+    display: inline-block;
     position: relative;
     top: 1%;
     margin-left: auto;
     margin-right: auto;
-}
-
-#container {
-    display: block;
-    position: relative;
-    top: 10%;
-    left: 20%;
+    width: 900px;
+    height: 900px;
+    border: solid 6px;
+    padding: 1px;
 }
 
 #container div {
     display: inline-block;
     vertical-align: top;
-    margin: 0.5px;
+    border: solid 0.1px;
+    padding: 0;
+    margin: 0;
 }
