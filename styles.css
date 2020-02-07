@@ -1,32 +1,96 @@
-#sizeTa {
-    position: relative;
-    display: inline-block;
-    bottom: 30px;
-}
-
-#generateBtn {
-    position: relative;
-    display: inline-block;
-    right: 180px;
-    width: 180px;
-}
-
 #container {
-    display: inline-block;
+    display: block;
     position: relative;
-    top: 1%;
-    margin-left: auto;
-    margin-right: auto;
+    left: 25%;
     width: 900px;
     height: 900px;
-    border: solid 6px;
-    padding: 1px;
+    border: solid 1px;
+    padding: 0px;
 }
 
 #container div {
     display: inline-block;
     vertical-align: top;
-    border: solid 0.1px;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#menu {
+    position: relative;
+    display: inline-block;
+    bottom: 502px;
+    left: 1400px;
+    width: 360px;
+    border: solid;
+    height: 300px;
+}
+
+.colorRadio input[type="radio"] {
+    display: inline-block;
+    margin: 10px;
+}
+
+#customBgTa {
+    top: 4px;
+    left: 70px;
+}
+
+#customBrushTa {
+    top: 4px;
+    left: 110px;
+}
+
+textarea {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+}
+
+#customBgLbl {
+    position: relative;
+    display: inline-block;
+    left: 38px;
+}
+
+#customBrushLbl {
+    position: relative;
+    display: inline-block;
+}
+
+#sizeLbl {
+    position: relative;
+    display: inline-block;
+    left: 40px;
+}
+
+#sizeTa {
+    position: relative;
+    display: inline-block;
+    left: 120px;
+    top: 4px;
+}
+
+#gridLbl {
+    position: relative;
+    display: inline-block;
+    left: 40px;
+    top: 4px;
+}
+
+#generateBtn {
+    position: relative;
+    display: block;
+    width: 130px;
+    top: 110px;
+    left: 193px;
+}
+
+#gridCbox {
+    display: inline-block;
+    position: relative;
+    left: 115px;
+    top: 5px;
 }
